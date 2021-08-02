@@ -12,7 +12,7 @@
   <Category/>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/baikal/baikal.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/icons/baikal.png</Icon>
   <ExtraParams>--restart=always</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -31,12 +31,10 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>
       <ContainerDir>/var/www/baikal/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>
       <ContainerDir>/var/www/baikal/Specific</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
