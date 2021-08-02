@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>baikal</Name>
+  <Repository>ckulka/baikal:nginx</Repository>
+  <Registry>https://hub.docker.com/r/ckulka/baikal/</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/ckulka/baikal/</Support>
+  <Project/>
+  <Overview>Provides a ready-to-go Baikal server, incl. docker-compose.yml &amp;amp; Systemd service file   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/sabre-io/sabre.io/blob/master/source/img/baikal.png?raw=true</Icon>
+  <ExtraParams>--restart=always</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Provides a ready-to-go Baikal server, incl. docker-compose.yml &amp;amp; Systemd service file   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>80</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>
+      <ContainerDir>/var/www/baikal/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>
+      <ContainerDir>/var/www/baikal/Specific</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Config" Target="/var/www/baikal/config" Default="" Mode="rw" Description="Container Path: /var/www/baikal/config" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Container Port" Target="80" Default="80" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="false" Mask="false">80</Config>
+  <Config Name="Specific" Target="/var/www/baikal/Specific" Default="" Mode="rw" Description="Container Path: /var/www/baikal/Specific" Type="Path" Display="always" Required="false" Mask="false"></Config>
+</Container>
