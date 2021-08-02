@@ -8,17 +8,17 @@
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/ckulka/baikal/</Support>
   <Project/>
-  <Overview>Provides a ready-to-go Baikal server, incl. docker-compose.yml &amp;amp; Systemd service file   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Overview>
+  <Overview>Provides a ready-to-go Baikal server, incl. docker-compose.yml &amp;amp; Systemd service file</Overview>
   <Category/>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/sabre-io/sabre.io/blob/master/source/img/baikal.png?raw=true</Icon>
+  <Icon>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/baikal/baikal.png</Icon>
   <ExtraParams>--restart=always</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DonateText/>
   <DonateLink/>
-  <Description>Provides a ready-to-go Baikal server, incl. docker-compose.yml &amp;amp; Systemd service file   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Description>
+  <Description>Provides a ready-to-go Baikal server, incl. docker-compose.yml &amp;amp; Systemd service file</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>

@@ -12,7 +12,7 @@
   <Category/>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/spikecodes/libreddit/blob/master/static/logo.png?raw=true</Icon>
+  <Icon>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/libreddit/libreddit.png</Icon>
   <ExtraParams>--restart=always</ExtraParams>
   <PostArgs/>
   <CPUset/>

@@ -44,7 +44,7 @@ Save, close and run the container</Overview>
   <Category/>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/zedeus/nitter/blob/master/public/logo.png?raw=true</Icon>
+  <Icon>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/nitter/nitter.png</Icon>
   <ExtraParams>--restart=always</ExtraParams>
   <PostArgs/>
   <CPUset/>
