@@ -7,7 +7,7 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/zedeus/nitter/</Support>
-  <Project/>
+  <Project>https://github.com/zedeus/nitter</Project>
   <Overview>Alternative Twitter front-end&#xD;
 &#xD;
 This requires the addition of a nitter.conf file within the /mnt/user/appdata/nitter directory.&#xD;
@@ -41,13 +41,12 @@ WantedBy=multi-user.target&#xD;
 --------------------------------------------------------------------------&#xD;
 &#xD;
 Save, close and run the container</Overview>
-  <Category/>
+  <Category>Network:Web</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/templates/nitter.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/icons/nitter.png</Icon>
   <ExtraParams>--restart=always</ExtraParams>
   <PostArgs/>
-  <CPUset/>
   <DonateText/>
   <DonateLink/>
   <Description>Alternative Twitter front-end&#xD;
@@ -83,24 +82,6 @@ WantedBy=multi-user.target&#xD;
 --------------------------------------------------------------------------&#xD;
 &#xD;
 Save, close and run the container</Description>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>8080</HostPort>
-        <ContainerPort>8080</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
-  <Data>
-    <Volume>
-      <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
-  <Environment/>
-  <Labels/>
-  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata location" Type="Path" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="Port" Target="8080" Default="8080" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/nitter" Mode="rw" Description="Appdata location" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/nitter</Config>
+  <Config Name="Port" Target="8080" Default="8282" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="false" Mask="false">8282</Config>
 </Container>

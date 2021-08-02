@@ -7,30 +7,16 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/spikecodes/libreddit/</Support>
-  <Project/>
-  <Overview> Alternative private front-end to Reddit</Overview>
-  <Category/>
+  <Project>https://github.com/spikecodes/libreddit</Project>
+  <Overview>Alternative private front-end to Reddit</Overview>
+  <Category>Network:Web</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/templates/libreddit.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/icons/libreddit.png</Icon>
   <ExtraParams>--restart=always</ExtraParams>
   <PostArgs/>
-  <CPUset/>
   <DonateText/>
   <DonateLink/>
   <Description> Alternative private front-end to Reddit</Description>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>8080</HostPort>
-        <ContainerPort>8080</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
-  <Data/>
-  <Environment/>
-  <Labels/>
   <Config Name="Port" Target="8080" Default="8080" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
 </Container>
