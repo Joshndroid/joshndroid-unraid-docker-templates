@@ -8,7 +8,7 @@
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/ckulka/baikal/</Support>
   <Project>https://github.com/ckulka/baikal-docker</Project>
-  <Overview>Provides a ready-to-go Baikal server, incl. docker-compose.yml &amp;amp; Systemd service file</Overview>
+  <Overview>Baïkal is a lightweight CalDAV+CardDAV server</Overview>
   <Category>Network:Web</Category>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/templates/baikal.xml</TemplateURL>
@@ -17,7 +17,7 @@
   <PostArgs/>
   <DonateText/>
   <DonateLink/>
-  <Description>Provides a ready-to-go Baikal server, incl. docker-compose.yml &amp;amp; Systemd service file</Description>
+  <Description>Baïkal is a lightweight CalDAV+CardDAV server. It offers an extensive web interface with easy management of users, address books and calendars. It is fast and simple to install and only needs a basic php capable server. The data can be stored in a MySQL or a SQLite database</Description>
   <Config Name="Config" Target="/var/www/baikal/config" Default="/mnt/user/appdata/baikal/config" Mode="rw" Description="Container Path: /var/www/baikal/config" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/baikal/config</Config>
   <Config Name="Container Port" Target="80" Default="80" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="false" Mask="false">80</Config>
   <Config Name="Specific" Target="/var/www/baikal/Specific" Default="/mnt/user/appdata/baikal/specific" Mode="rw" Description="Container Path: /var/www/baikal/Specific" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/baikal/specific</Config>
