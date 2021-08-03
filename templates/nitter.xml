@@ -8,39 +8,7 @@
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/zedeus/nitter/</Support>
   <Project>https://github.com/zedeus/nitter</Project>
-  <Overview>Alternative Twitter front-end&#xD;
-&#xD;
-This requires the addition of a nitter.conf file within the /mnt/user/appdata/nitter directory.&#xD;
-Before starting the contianer for the first time run these commands within the terminal&#xD;
-cd /mnt/user/appdata/nitter&#xD;
-nano nitter.conf&#xD;
-&#xD;
-Copy in the following;&#xD;
---------------------------------------------------------------------------&#xD;
-[Unit]&#xD;
-Description=Nitter (An alternative Twitter front-end)&#xD;
-After=syslog.target&#xD;
-After=network.target&#xD;
-&#xD;
-[Service]&#xD;
-Type=simple&#xD;
-&#xD;
-# set user and group&#xD;
-User=nitter&#xD;
-Group=nitter&#xD;
-&#xD;
-# configure location&#xD;
-WorkingDirectory=/home/nitter/nitter&#xD;
-ExecStart=/home/nitter/nitter/nitter&#xD;
-&#xD;
-Restart=always&#xD;
-RestartSec=15&#xD;
-&#xD;
-[Install]&#xD;
-WantedBy=multi-user.target&#xD;
---------------------------------------------------------------------------&#xD;
-&#xD;
-Save, close and run the container</Overview>
+  <Overview>Alternative Twitter front-end</Overview>
   <Category>Network:Web</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/templates/nitter.xml</TemplateURL>
