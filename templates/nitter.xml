@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/zedeus/nitter/</Support>
+  <Support>https://forums.unraid.net/topic/112086-support-joshndroids-docker-repo-support-thread/</Support>
   <Project>https://github.com/zedeus/nitter</Project>
   <Overview>Alternative Twitter front-end</Overview>
   <Category>Network:Web</Category>

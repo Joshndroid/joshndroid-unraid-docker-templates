@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/ckulka/baikal/</Support>
+  <Support>https://forums.unraid.net/topic/112086-support-joshndroids-docker-repo-support-thread/</Support>
   <Project>https://github.com/ckulka/baikal-docker</Project>
   <Overview>Baïkal is a lightweight CalDAV+CardDAV server</Overview>
   <Category>Network:Web</Category>

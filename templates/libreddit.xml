@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/spikecodes/libreddit/</Support>
+  <Support>https://forums.unraid.net/topic/112086-support-joshndroids-docker-repo-support-thread/</Support>
   <Project>https://github.com/spikecodes/libreddit</Project>
   <Overview>Alternative private front-end to Reddit</Overview>
   <Category>Network:Web</Category>
