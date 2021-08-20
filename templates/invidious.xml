@@ -24,12 +24,5 @@
   Please see my support thread for further (There are too many steps in order for this to be listed here)&#xD;
   https://forums.unraid.net/topic/112086-support-joshndroids-docker-repo-support-thread/?tab=comments#comment-1025622</Description>
   <Config Name="Port" Target="3000" Default="3000" Mode="tcp" Description="Webgui port" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
-  <Config Name="DB_HOST" Target="DB_HOST" Default="" Mode="" Description="Container Variable: DB_HOST" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="DB_PORT" Target="DB_PORT" Default="5432" Mode="" Description="Container Variable: DB_PORT" Type="Variable" Display="always" Required="false" Mask="false">5432</Config>
-  <Config Name="DB_USER" Target="DB_USER" Default="kemal" Mode="" Description="Container Variable: DB_USER" Type="Variable" Display="always" Required="false" Mask="false">kemal</Config>
-  <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="" Mode="" Description="Container Variable: DB_PASSWORD" Type="Variable" Display="always" Required="false" Mask="true">kemal</Config>
-  <Config Name="DB_DATABASE" Target="DB_DATABASE" Default="invidious" Mode="" Description="Container Variable: DB_DATABASE" Type="Variable" Display="always" Required="false" Mask="false">invidious</Config>
   <Config Name="Config" Target="/config" Default="/mnt/user/appdata/invidious" Mode="rw" Description="Config" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/invidious</Config>
-  <Config Name="full_refresh" Target="full_refresh" Default="false" Mode="" Description="full_refresh" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
-  <Config Name="Https_only" Target="https_only" Default="false" Mode="" Description="Https only" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
 </Container>
