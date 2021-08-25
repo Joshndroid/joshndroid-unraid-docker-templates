@@ -28,5 +28,5 @@ Copy in the nitter.conf contents located from &#xD;
 https://github.com/zedeus/nitter/blob/master/nitter.conf &#xD;
 Save, close and run the container</Description>
   <Config Name="Nitter.conf" Target="/src/nitter.conf" Default="/mnt/user/appdata/nitter/nitter.conf" Mode="rw" Description="Nitter.conf location" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/nitter/nitter.conf</Config>
-  <Config Name="Port" Target="8080" Default="8282" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="false" Mask="false">8282</Config>
+  <Config Name="Port" Target="8080" Default="8080" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
 </Container>
