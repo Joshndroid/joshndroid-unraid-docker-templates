@@ -24,31 +24,8 @@ Before starting the contianer for the first time run these commands within the t
 cd /mnt/user/appdata/nitter&#xD;
 nano nitter.conf&#xD;
 &#xD;
-Copy in the following;&#xD;
---------------------------------------------------------------------------&#xD;
-[Unit]&#xD;
-Description=Nitter (An alternative Twitter front-end)&#xD;
-After=syslog.target&#xD;
-After=network.target&#xD;
-&#xD;
-[Service]&#xD;
-Type=simple&#xD;
-&#xD;
-# set user and group&#xD;
-User=nitter&#xD;
-Group=nitter&#xD;
-&#xD;
-# configure location&#xD;
-WorkingDirectory=/home/nitter/nitter&#xD;
-ExecStart=/home/nitter/nitter/nitter&#xD;
-&#xD;
-Restart=always&#xD;
-RestartSec=15&#xD;
-&#xD;
-[Install]&#xD;
-WantedBy=multi-user.target&#xD;
---------------------------------------------------------------------------&#xD;
-&#xD;
+Copy in the nitter.conf contents located from &#xD;
+https://github.com/zedeus/nitter/blob/master/nitter.conf &#xD;
 Save, close and run the container</Description>
   <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/nitter" Mode="rw" Description="Appdata location" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/nitter</Config>
   <Config Name="Port" Target="8080" Default="8282" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="false" Mask="false">8282</Config>
