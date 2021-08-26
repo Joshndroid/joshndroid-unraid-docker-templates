@@ -8,7 +8,17 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/112086-support-joshndroids-docker-repo-support-thread/</Support>
   <Project>https://sr.ht/~cadence/bibliogram/</Project>
-  <Overview>Bibliogram is an alternative front-end for Instagram</Overview>
+  <Overview>Bibliogram is an alternative front-end for Instagram&#xD;
+  &#xD;
+  This requires the addition of a config.js file within the /mnt/user/appdata/bibliogram directoy&#xD;
+  Before starting the container for the first time run these commands within the terminal&#xD;
+  cd /mnt/user/appdata/&#xD;
+  mkdir bibliogram&#xD;
+  nano config.js&#xD;
+  &#xD;
+  Copy in the contents of the config.js located from&#xD;
+  https://git.sr.ht/~cadence/bibliogram/tree/master/item/config.js &#xD;
+  Save, close and run the container</Overview>
   <Category>Network:Web</Category>
   <WebUI>http://[IP]:[PORT:10407]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/templates/bibliogram.xml</TemplateURL>
