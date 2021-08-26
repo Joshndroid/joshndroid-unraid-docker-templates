@@ -19,10 +19,10 @@
   <DonateLink/>
   <Description>Bibliogram is an alternative front-end for Instagram&#xD;
   &#xD;
-  This requires the addition of a config.js file within the /mnt/userr/appdata/bibliogram directoy&#xD;
+  This requires the addition of a config.js file within the /mnt/user/appdata/bibliogram directoy&#xD;
   Before starting the container for the first time run these commands withint he terminal&#xD;
   cd /mnt/user/appdata/&#xD;
-  mk dir bibliogram&#xD;
+  mkdir bibliogram&#xD;
   nano config.js&#xD;
   &#xD;
   Copy in the contents of the config.js located from&#xD;
