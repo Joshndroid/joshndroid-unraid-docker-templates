@@ -20,7 +20,8 @@
   <Description>Alternative Twitter front-end&#xD;
 &#xD;
 This requires the addition of a nitter.conf file within the /mnt/user/appdata/nitter directory.&#xD;
-Before starting the contianer for the first time run these commands within the terminal&#xD;
+Before starting the container for the first time run these commands within the terminal&#xD;
+mkdir /mnt/user/appdata/nitter&#xD;
 cd /mnt/user/appdata/nitter&#xD;
 nano nitter.conf&#xD;
 &#xD;
