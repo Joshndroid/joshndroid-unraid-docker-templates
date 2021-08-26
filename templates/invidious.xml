@@ -11,7 +11,7 @@
   <Overview>An open source alternative front-end to YouTube</Overview>
   <Category>Network:Web</Category>
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/templates/invidious.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/icons/invidious.png</Icon>
   <ExtraParams>--restart=always</ExtraParams>
   <PostArgs/>
