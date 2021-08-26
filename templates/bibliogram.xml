@@ -12,8 +12,8 @@
   &#xD;
   This requires the addition of a config.js file within the /mnt/user/appdata/bibliogram directoy&#xD;
   Before starting the container for the first time run these commands within the terminal&#xD;
-  cd /mnt/user/appdata/&#xD;
-  mkdir bibliogram&#xD;
+  mkdir /mnt/user/appdata/bibliogram&#xD;
+  cd /mnt/user/appdata/bibliogram&#xD;
   nano config.js&#xD;
   &#xD;
   Copy in the contents of the config.js located from&#xD;
@@ -31,8 +31,8 @@
   &#xD;
   This requires the addition of a config.js file within the /mnt/user/appdata/bibliogram directoy&#xD;
   Before starting the container for the first time run these commands within the terminal&#xD;
-  cd /mnt/user/appdata/&#xD;
-  mkdir bibliogram&#xD;
+  mkdir /mnt/user/appdata/bibliogram&#xD;
+  cd /mnt/user/appdata/bibliogram&#xD;
   nano config.js&#xD;
   &#xD;
   Copy in the contents of the config.js located from&#xD;
