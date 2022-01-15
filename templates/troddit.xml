@@ -17,7 +17,7 @@
   <PostArgs/>
   <DonateText/>
   <DonateLink/>
-  <Description/>A web client for Reddit&#xD;
+  <Description>A web client for Reddit&#xD;
   &#xD;
   This REQUIRES further setup before starting for the first time.&#xD;
   Please see the Environment Variables section in the project github&#xD;
