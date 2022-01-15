@@ -12,7 +12,7 @@
   <Category>Network:Web</Category>
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
   <TemplateURL/></TemplateURL>
-  <Icon>https://github.com/burhan-syed/troddit/raw/main/public/icon-512.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/acce11cca57e4000233efb34896e91825a3a5448/icons/troddit.png</Icon>
   <ExtraParams>--restart=always</ExtraParams>
   <PostArgs/>
   <DonateText/>
