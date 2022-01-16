@@ -6,8 +6,8 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>https://forums.unraid.net/topic/112086-support-joshndroids-docker-repo-support-thread/</Support>
-  <Project/>https://github.com/burhan-syed/troddit</Project>
+  <Support>https://forums.unraid.net/topic/112086-support-joshndroids-docker-repo-support-thread/</Support>
+  <Project>https://github.com/burhan-syed/troddit</Project>
   <Overview>A web client for Reddit</Overview>
   <Category>Network:Web</Category>
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
