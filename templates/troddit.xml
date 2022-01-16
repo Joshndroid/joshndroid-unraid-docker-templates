@@ -11,7 +11,7 @@
   <Overview>A web client for Reddit</Overview>
   <Category>Network:Web</Category>
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
-  <TemplateURL></TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/templates/troddit.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/acce11cca57e4000233efb34896e91825a3a5448/icons/troddit.png</Icon>
   <ExtraParams>--restart=always</ExtraParams>
   <PostArgs/>
