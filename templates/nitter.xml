@@ -17,7 +17,7 @@
   nano nitter.conf&#xD;
   &#xD;
   Copy in the nitter.conf contents located from &#xD;
-  https://github.com/zedeus/nitter/blob/master/nitter.conf &#xD;
+  https://raw.githubusercontent.com/zedeus/nitter/master/nitter.example.conf &#xD;
   Save, close and run the container</Overview>
   <Category>Network:Web</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
