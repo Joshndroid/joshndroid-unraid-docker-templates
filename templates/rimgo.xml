@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>rimgo</Name>
+  <Repository>quay.io/pussthecatorg/rimgo</Repository>
+  <Registry>https://quay.io/repository/pussthecatorg/rimgo</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/112086-support-joshndroids-docker-repo-support-thread/</Support>  <Project/>
+  <Project>https://codeberg.org/video-prize-ranch/rimgo</Project>
+  <Overview>Alternative Imgur front-end&#xD;
+  &#xD;
+  This requires the addition of a config.yml file within the /mnt/user/appdata/rimgo directory.&#xD;
+  Before starting the container for the first time run these commands within the terminal&#xD;
+  mkdir /mnt/user/appdata/rimgo&#xD;
+  cd /mnt/user/appdata/rimgo&#xD;
+  nano config.yml&#xD;
+  &#xD;
+  Copy in the config.yml contents located from &#xD;
+  https://codeberg.org/video-prize-ranch/rimgo/src/branch/main/config.yml &#xD;
+  Save, close and run the container</Overview>
+  <Category>Network:Web</Category>
+  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/icons/rimgo.png</Icon>
+  <ExtraParams>--restart=always</ExtraParams>
+  <PostArgs/>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Alternative Imgur front-end&#xD;
+  &#xD;
+  This requires the addition of a config.yml file within the /mnt/user/appdata/rimgo directory.&#xD;
+  Before starting the container for the first time run these commands within the terminal&#xD;
+  mkdir /mnt/user/appdata/rimgo&#xD;
+  cd /mnt/user/appdata/rimgo&#xD;
+  nano config.yml&#xD;
+  &#xD;
+  Copy in the config.yml contents located from &#xD;
+  https://codeberg.org/video-prize-ranch/rimgo/src/branch/main/config.yml &#xD;
+  Save, close and run the container</Description>
+  <Config Name="Config" Target="/app/config.yml" Default="/mnt/user/appdata/rimgo/config.yml" Mode="rw" Description="Config.yml" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/rimgo/config.yml</Config>
+  <Config Name="Port" Target="3000" Default="3000" Mode="tcp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+</Container>
