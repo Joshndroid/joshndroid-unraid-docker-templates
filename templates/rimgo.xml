@@ -27,4 +27,5 @@
   <Config Name="Port" Target="3000" Default="3000" Mode="tcp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
   <Config Name="Address" Target="ADDRESS" Default="0.0.0.0" Mode="" Description="Hosted IP Address" Type="Variable" Display="always" Required="false" Mask="false">0.0.0.0</Config>
   <Config Name="Imgur Client ID" Target="IMGUR_CLIENT_ID" Default="546c25a59c58ad7" Mode="" Description="Imgur Client ID" Type="Variable" Display="always" Required="false" Mask="false">546c25a59c58ad7</Config>
+  <Config Name="FORCE_WEBP" Target="FORCE_WEBP" Default="0" Mode="" Description="Force WEBP to reduce bandwidth" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
 </Container>
