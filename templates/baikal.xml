@@ -17,7 +17,13 @@
   <PostArgs/>
   <DonateText/>
   <DonateLink/>
-  <Description>Baïkal is a lightweight CalDAV+CardDAV server. It offers an extensive web interface with easy management of users, address books and calendars. It is fast and simple to install and only needs a basic php capable server. The data can be stored in a MySQL or a SQLite database</Description>
+  <Description>Baïkal is a lightweight CalDAV+CardDAV server.&#xD;
+  &#xD;
+  It offers an extensive web interface with easy management of users, address books and calendars.&#xD;
+  It is fast and simple to install and only needs a basic php capable server.&#xD;
+  The data can be stored in a MySQL or a SQLite database&#xD;
+  Please go to the support thread before installing the template&#xD;
+  This will provide some terminal commands to assist in getting the folders setup&#xD;</Description>
   <Config Name="Config" Target="/var/www/baikal/config" Default="/mnt/user/appdata/baikal/config" Mode="rw" Description="Container Path: /var/www/baikal/config" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/baikal/config</Config>
   <Config Name="Container Port" Target="80" Default="80" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="false" Mask="false">80</Config>
   <Config Name="Specific" Target="/var/www/baikal/Specific" Default="/mnt/user/appdata/baikal/specific" Mode="rw" Description="Container Path: /var/www/baikal/Specific" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/baikal/specific</Config>
