@@ -12,9 +12,6 @@ https://github.com/Joshndroid/joshndroid-unraid-docker-templates/wiki/Unraid-Doc
 #Libreddit
 https://github.com/Joshndroid/joshndroid-unraid-docker-templates/wiki/Unraid-Docker-Libreddit-Installation
 
-#Nitter
-https://github.com/Joshndroid/joshndroid-unraid-docker-templates/wiki/Unraid---Docker---Nitter-Installation
-
 #Invidious
 Invidious is a bit tricky and does not use the Dockerhub repo to obtain the docker images.
 For further information and setup please see my support thread on the Unraid forums
