@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>JustPix</Name>
+  <Repository>ghcr.io/joshndroid/justpix</Repository>
+  <Registry>http://github.com/joshndroid/justpix</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>https://forums.unraid.net/topic/112086-support-joshndroids-docker-repo-support-thread/</Support>
+  <Project/>https://github.com/Joshndroid/JustPix</Project>
+  <ReadMe/>https://github.com/Joshndroid/JustPix/blob/main/README.md</ReadMe>
+  <Overview/>JustPix is a small read-only photo, video, and audio gallery for a local media folder. &#xD;
+  It is designed for Unraid and other Docker hosts where your media is mounted into the container as read-only storage. &#xD;
+  The app never uploads, edits, tags, deletes, or writes metadata to your media library. The filesystem is the source of truth.
+  <Category/>MediaApp:Photos</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Joshndroid/JustPix/fe26828abbfbc3bf3ea93bde71f376c91bbc5502/app/static/justpix-icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled></DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUi" Target="3000" Default="" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Appdata" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/justpix</Config>
+  <Config Name="Photo Media Folder" Target="/photos" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
+  <Config Name="AUTH_ENABLED" Target="AUTH_ENABLED" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="SESSION_SECRET" Target="SESSION_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">replacethiswithstring</Config>
+  <TailscaleStateDir/>
+</Container>
